@@ -18,7 +18,7 @@ public class Order_List {
     /**
      * This method uses aggregation to invoke the delete method from the Item Class.
      * Then it well be used to delete items after the order has been placed.
-     * @param item key used to find item that must be deleted
+     * @param item key used to find item that is to be voided
      *@return will not return a value
      */
     public String VoidItem(Item item) {
