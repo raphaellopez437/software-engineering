@@ -1,6 +1,6 @@
 /**
  * <p>The class Order List Contains my two usecases. Void Item & ViewWaitingOrder
- * Void Item will give the user the ability to void an item after after the order
+ * Void Item will give the user the ability to void an item after the order
  * has been placed. ViewWaitingOrder allows the User to view all incoming orders
  * that need to be fulfilled.
  *
