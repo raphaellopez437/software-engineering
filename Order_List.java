@@ -18,21 +18,21 @@ public class Order_List {
     /**
      * This method uses aggregation to invoke the delete method from the Item Class.
      * Then it well be used to delete items after the order has been placed.
-     * @param item key used to find item that is to be voided
-     *@return will not return a value
+     * @param Empty
+     * @return will retrun true if there are items to void and false if empty
      */
-    public String VoidItem(Item item) {
+    public boolean VoidItem() {
 
     }
 
     /**
      * Will Display the list of items in each order from an array list.
      * Invokes the items added in the item class and is placed in the array.
-     * @param order  list of the items in the order.
-     *@return Will return an array list of orders that are added into the system
+     * @param Empty.
+     * @return Will return an array list of orders that are added into the system.
      *
      */
-    public String ViewWaitingOrder(Item order ){
+    public order[] ViewWaitingOrder( ){
 
     }
 
