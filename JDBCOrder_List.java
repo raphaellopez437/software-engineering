@@ -35,5 +35,14 @@ public class JDBCOrder_List {
     public order[] ViewWaitingOrder(){
 
     }
+    /**
+    * This method will used to add a new order to the OrderList
+    * @param Order order will be the Order that is being added
+    * @return will return a boolean value, if true the order has been successfully sent, 
+    * if false the order could not be sent
+    */
+    public boolean SendOrder(Order order) {
+
+    }
 
 }
